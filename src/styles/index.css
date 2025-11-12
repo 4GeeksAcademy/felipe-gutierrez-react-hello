@@ -9,3 +9,82 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.navbar {
+  background-color: #343a40;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-item {
+  color: white;
+}
+
+.navbar-brand {
+  padding-left: 2%;
+}
+
+.site-footer {
+  background-color: #343a40;
+  color: white;
+  padding: 3%;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 7%;
+  margin-bottom: 1%;
+  background-color: #D3D3D3;
+  padding: 4%;
+  padding-top: 40px;
+}
+
+.body-title {
+  margin-left: 10px;
+  font-size: 10vh;
+}
+
+.body-text {
+  margin-left: 10px;
+  font-size: 3vh;
+}
+
+.card {
+  margin-bottom: 5%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 400px;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.btn.body {
+  margin-left: 10px;
+  background-color: #0d6efd;
+}
+
+.btn {
+  width: 150px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
