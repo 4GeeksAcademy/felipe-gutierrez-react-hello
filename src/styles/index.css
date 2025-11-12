@@ -41,13 +41,15 @@
 }
 
 .body {
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 7%;
-  margin-bottom: 1%;
+  /*margin-left: 3%;
+  margin-right: 2%;*/
+  margin-top: 6%;
+  margin-bottom: 3%;
   background-color: #D3D3D3;
-  padding: 4%;
-  padding-top: 40px;
+  padding: 5%;
+  padding-top: 45px; 
+  
+ 
 }
 
 .body-title {

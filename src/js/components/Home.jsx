@@ -29,8 +29,9 @@ const Home = (props) => {
 	return (
 		<div className="">
 			<Navbar />
-			<Body />
+			
 			<div className="row m-4">
+				<Body />
 				{Futbolistas.map((item, index) => (
 					<div className="col-lg-3 col-md-6 col-12">
 						<Card key={index} nombre={item.nombre} info={item.info} imagenUrl={item.imagenUrl} href={item.href} />
